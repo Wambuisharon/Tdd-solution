@@ -1,3 +1,13 @@
 def solution(x,y,operation):
-	pass
+	if operation =="+":
+		return x+y
+	elif operation =="-":
+	    return x-y
+	elif operation =="*": 
+	    return x*y
+	elif operation=="/":
+	    return x/y  
+	elif operation=="%":  
+	    return x%y     
+
     
