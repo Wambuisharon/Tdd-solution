@@ -8,6 +8,16 @@ def solution(x,y,operation):
 	elif operation=="/":
 	    return x/y  
 	elif operation=="%":  
-	    return x%y     
+	    return x%y
+	elif operation=="**":
+		return x**y
+	elif operation=="//":
+		return x//y
+	elif operation==">":
+		return x>y
+	elif operation=="!=":
+	    return x!=y
+	elif operation=="==":
+		return x==y	     
 
     
